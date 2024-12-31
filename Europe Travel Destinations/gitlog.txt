@@ -1,0 +1,239 @@
+commit e681449008d0d172b357f4ddfc8d4389c72d4da0
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Sun Dec 1 12:14:55 2024 -0500
+
+    Styling tweaks for log in and register
+
+commit fb8bdb9a6b022c3833334cbe2cabfc1b7eafb47c
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Sun Dec 1 11:55:00 2024 -0500
+
+    Added all the needed copyrights and policy information
+
+commit 732a3b4478d08fccce4bd5d3213443977624e9d4
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Sat Nov 30 19:55:43 2024 -0500
+
+    Trying to fix my code so that it uses relative paths
+
+commit 7e757efd5419ab79cf28f74ab4404790ada6c42f
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Sat Nov 30 17:00:07 2024 -0500
+
+    Added functionality to add destinations to an existing list
+
+commit 0ea825b389c0dbd129d0a5d6e2023382ce4777fb
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Sat Nov 30 14:39:48 2024 -0500
+
+    Fixed public lists for un authenticated users
+
+commit e79647957d9531009208fa47355fa21eff2fcb35
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Sat Nov 30 14:18:15 2024 -0500
+
+    Fixed pagination bug
+
+commit 9dcadfebf6b7edfc5143238c385650658d0b496d
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Sat Nov 30 13:54:58 2024 -0500
+
+    Fixed softmatching search filtering
+
+commit 3420dade6566466747cad02039eb4b4c02b15bb0
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 28 21:40:55 2024 -0500
+
+    Email verification almost works
+
+commit 5f83599d514a673f2bba074acdac18defe9cf217
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 28 20:12:49 2024 -0500
+
+    Added functionality for deactivated accounts
+
+commit e4d0c9e2f9d8d1e5133e7e66ff11b40c339a6d1e
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 28 19:10:10 2024 -0500
+
+    Fixed some admin functionalities
+
+commit aeb75f4c2b705f85151b08300e3caefab17050fe
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 28 18:56:10 2024 -0500
+
+    Fixed functionality to hide reviews
+
+commit e788fa952bcb85d8d7e65598325b23481a53a2d5
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 28 18:38:45 2024 -0500
+
+    Restructuring reviews component and schema
+
+commit e37b5c4d2e2e6fa60018826821511cf83d902ed9
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 28 12:53:41 2024 -0500
+
+    Added functionality for admin to deactivate accounts and grant admin permissions
+
+commit c470e1a9330ad8d86872e3737469fe4750aeca10
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 28 10:47:30 2024 -0500
+
+    Added update password route
+
+commit c875c9ac4b52aec8b771f0f3418fa7dbf26ec98d
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Wed Nov 27 12:41:43 2024 -0500
+
+    Styled and completed functionality for adding and viewing reviews
+
+commit bcdb81f7e235fe5b90da186c34261f71843a88e4
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Wed Nov 27 12:23:28 2024 -0500
+
+    Able to successfully post reviews
+
+commit 62463b3a15cd1fc2c1717f7ab2c74b262832b95f
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Wed Nov 27 12:08:57 2024 -0500
+
+    Added admin user and working on adding reviews
+
+commit 3ba0e7648c32ebf3b8a69210f60ccbfd36ef3947
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Tue Nov 26 21:04:46 2024 -0500
+
+    Refixed filtering, struggling to get softmatching working
+
+commit e102ad2c74917dee746e51023e079bad7d54aff0
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Tue Nov 26 20:47:56 2024 -0500
+
+    Fixed posting public list functionality
+
+commit 09d855150f4c86e7da122a08a164538c72806d88
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Tue Nov 26 18:38:41 2024 -0500
+
+    Creating public list component
+
+commit e6079ccdedde1b682899fe64bd0c2b0ab4ed723e
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Tue Nov 26 15:56:27 2024 -0500
+
+    Fixing search filtering to account for start of inputs and the search type
+
+commit 61f345e1dd3e82dc3e23dced5325d5995e17eb6e
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Tue Nov 26 15:21:40 2024 -0500
+
+    Fixed some routing issues between the register component and login component
+
+commit ae81f7493c479214c08d99bcb085f49018e5dca0
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Sun Nov 24 21:46:25 2024 -0500
+
+    Fixed my viewing lists and saving lists functionality
+
+commit dc83bb7a62408a27375b265754a6d2a84e4926dd
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Sun Nov 24 21:02:28 2024 -0500
+
+    Working on displaying lists and storing them in MongoDB
+
+commit 05db045aff296f68d8a58dec0ba2031779c58c5c
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Sun Nov 24 15:16:50 2024 -0500
+
+    Trying to fix authentication
+
+commit e5195c1019d627b16ff95f127f425455f2fd7411
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Sat Nov 23 17:56:53 2024 -0500
+
+    Adding details for selected destinations and dynamically updating the results label
+
+commit 6e375c427fa2d2645578025f948912a808efec29
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 21 19:20:11 2024 -0500
+
+    Implementing backend API calls from Lab3
+
+commit c115352f797a836c18e94a22416eca4d6379d270
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 21 19:09:43 2024 -0500
+
+    Created some pagination functionality
+
+commit e0b22d494483b9940d73138d5e1a43c672f9f324
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 21 18:14:22 2024 -0500
+
+    Fixed logging in functionality
+
+commit 81211db329b6a9d6387666ecffbfa689c27fc9ca
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Wed Nov 20 12:31:40 2024 -0500
+
+    Added login functionality
+
+commit f28d9882eb5a836a8c51a1e1f29a96da80227483
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 14 19:56:12 2024 -0500
+
+    Configured JWT tokens and can register users into my database
+
+commit bed56a5430897711dc9f41ceb67b914a97c8c794
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 14 17:49:53 2024 -0500
+
+    Setting up Mongodb database
+
+commit 48f6cd597fb872de2386849aa21f0e25fdff95a7
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 14 17:12:04 2024 -0500
+
+    Styling my front end components
+
+commit f1991bf2fef7e9d680faedc9a7a167d39a02fb21
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 14 15:32:35 2024 -0500
+
+    Creating routing between pages
+
+commit 273f54e8d3cf7cb3bcf6c0e7c04face25a61725f
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Thu Nov 14 14:02:44 2024 -0500
+
+    Fixed routing issues
+
+commit dcdbe0bb9ae9aa4da4a25cc7b28289876f645ff1
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Wed Nov 13 16:57:32 2024 -0500
+
+    Re creating front page UI and setting up proxy to talk to back-end
+
+commit b52450f56fd72fb4c3ec815b5c21dd912816f5d5
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Tue Nov 12 15:23:19 2024 -0500
+
+    Trying to fix issues with dependencies
+
+commit bbc5c0267f9a46632ecda4c7fd56e421897bfe5e
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Tue Nov 12 13:05:57 2024 -0500
+
+    Creating first component for logins
+
+commit cecc94f9de6d6e82495ec36cfb2c37cfd7a44de1
+Author: Caelan Hartley <145243132+chartle5@users.noreply.github.com>
+Date:   Mon Nov 11 12:40:24 2024 -0500
+
+    Transfering Back-end from lab3 as a basis
+
+commit ee4a23e57318e3f0731160c1bb115ffb7c54e069
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Sun Nov 3 23:57:54 2024 +0000
+
+    Initial commit

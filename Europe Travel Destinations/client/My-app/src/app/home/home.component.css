@@ -1,0 +1,22 @@
+.policy-links {
+    margin-top: 20px;
+  }
+  
+  .policy-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .policy-links li {
+    margin-bottom: 10px;
+  }
+  
+  .policy-links a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .policy-links a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,73 @@
+.lists-page {
+  padding: 20px;
+}
+
+.lists-container {
+  display: flex;
+  gap: 20px;
+}
+
+.list-column {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-column h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #ff5e00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.actions-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.add-to-list label {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.add-to-list select {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.add-to-list button {
+  margin-left: 10px;
+}
+
+  

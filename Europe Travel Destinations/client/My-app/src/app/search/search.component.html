@@ -1,0 +1,72 @@
+<div class="mainPage">
+  <div class="inputs">
+    <div class="controls">
+      <label for="searchType">Search by:</label>
+      <select id="searchType" [(ngModel)]="searchType">
+        <option value="Destination">Name</option>
+        <option value="Region">Region</option>
+        <option value="Country">Country</option>
+      </select>
+      <label for="numberOfResults">Results:</label>
+      <select id="numberOfResults" [(ngModel)]="numberOfResults">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+      </select>
+      <div class="search">
+        <input
+          type="text"
+          id="searchBar"
+          [(ngModel)]="searchBar"
+          placeholder="Search Destination..."
+        />
+        <button id="searchButton" (click)="onSearch()">Search</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="result">
+    <label id="resultsLabel">
+      {{ searchMade
+        ? (totalResults === 0
+          ? 'No results from your search'
+          : 'Showing ' + startIndex + '...' + endIndex + ' out of ' + totalResults + ' results')
+        : 'Results will be shown below...' }}
+    </label>
+    <div class="destination-columns">
+      <div class="destination-box" *ngFor="let destination of searchResults">
+        <h3>{{ destination.Destination }}</h3>
+        <p>Country: {{ destination.Country }}</p>
+        <div class="destination-buttons">
+          <button (click)="searchOnDDG(destination)">Search on DDG</button>
+          <button (click)="addToWorkingList(destination)">Add to List</button>
+          <button (click)="toggleDetails(destination)">
+            {{ expandedDestination === destination ? 'Hide Details' : 'Details' }}
+          </button>
+        </div>
+
+        <div
+          class="destination-details"
+          *ngIf="expandedDestination === destination"
+        >
+          <h4>Details</h4>
+          <ul>
+            <li *ngFor="let key of getObjectKeys(destination)">
+              <strong>{{ key }}:</strong> {{ destination[key] }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pages">
+    <button (click)="onFirstPage()">1</button>
+    <button (click)="onPrevPage()">Previous</button>
+    <button id="currentPageButton">{{ currentPage }}</button>
+    <button (click)="onNextPage()">Next</button>
+    <button id="totalPagesButton" (click)="onLastPage()">Last</button>
+  </div>
+</div>
+

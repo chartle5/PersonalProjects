@@ -1,0 +1,26 @@
+<nav class="header">
+  <div class="header-title">Caelan's Europe Travel Guide</div>
+  <div class="header-content">
+    <span class="header-item" routerLink="/" (click)="pageChange.emit()">Home</span>
+    <span class="header-item" (click)="searchPage()">Search</span>
+    <span class="header-item" (click)="listPage()">My Lists</span>
+    <span class="header-item" routerLink="/public-lists">Public Lists</span>
+    <span 
+      class="header-item" 
+      *ngIf="!isLoggedIn; else loggedInTemplate" 
+      (click)="login()">Log In
+    </span>
+    <ng-template #loggedInTemplate>
+      <span class="header-item" routerLink="/update-password">Update Password</span>
+      <span class="header-item" (click)="logout()">Log Out</span>
+      <span 
+        class="header-item" 
+        *ngIf="isAdmin" 
+        routerLink="/manage-users">
+        Manage Users
+      </span>
+    </ng-template>
+  </div>
+</nav>
+
+  

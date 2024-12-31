@@ -1,0 +1,78 @@
+<div class="public-lists">
+  <h2>Public Lists</h2>
+
+  <div *ngIf="isLoggedIn" class="post-list">
+    <div class="saved-lists horizontal-container">
+      <label for="savedListsDropdown" class="horizontal-label">Select a Saved List to Post:</label>
+      <select id="savedListsDropdown" [(ngModel)]="selectedSavedList" (change)="onSavedListSelected()">
+        <option *ngFor="let list of savedLists" [value]="list.title">{{ list.title }}</option>
+      </select>
+      <button (click)="postList()">Post Saved List</button>
+    </div>
+  </div>
+
+  <div *ngIf="publicLists.length > 0" class="list-grid">
+    <div *ngFor="let list of publicLists" class="list-box">
+      <div class="list-header">
+        <h4>{{ list.name }}</h4>
+        <p>Created by: {{ list.createdBy }}</p>
+        <p>Destinations: {{ list.destinations.length }}</p>
+        <p>Average Rating: {{ list.averageRating || 'No ratings yet' }}</p>
+        <div class="list-buttons">
+          <button (click)="openReviewModal(list)">Reviews</button>
+          <button *ngIf="isLoggedIn" (click)="openReviewDialog(list)">Add Review</button>
+          <button class="toggle-button" (click)="toggleListExpansion(list._id)">
+            {{ expandedList === list._id ? 'Hide Destinations' : 'View Destinations' }}
+          </button>
+        </div>
+      </div>
+
+      <div *ngIf="expandedList === list._id" class="list-details">
+        <h5>Destinations:</h5>
+        <ul>
+          <li *ngFor="let destination of list.destinations">
+            {{ destination.Destination }} ({{ destination.Country }})
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <p *ngIf="publicLists.length === 0">No public lists available.</p>
+
+  <div *ngIf="selectedListForReview" class="add-review-modal">
+    <div class="add-review-modal-content">
+      <h3>Add a Review for {{ selectedListForReview?.name }}</h3>
+      <label for="rating">Rating (1-5):</label>
+      <select id="rating" [(ngModel)]="reviewRating">
+        <option *ngFor="let rating of [1, 2, 3, 4, 5]" [value]="rating">{{ rating }}</option>
+      </select>
+      <br />
+      <label for="comment">Comment:</label>
+      <textarea id="comment" [(ngModel)]="reviewComment" rows="3"></textarea>
+      <br />
+      <button (click)="submitReview()">Submit</button>
+      <button (click)="cancelReview()">Cancel</button>
+    </div>
+  </div>
+
+  <div *ngIf="showReviewsModal" class="reviews-modal">
+    <div class="reviews-modal-content">
+      <h3>Reviews for {{ selectedListForModal?.name }}</h3>
+      <ul *ngIf="selectedListForModal?.reviews?.length > 0">
+        <li *ngFor="let review of selectedListForModal.reviews">
+          <p><strong>User:</strong> {{ review.user }}</p>
+          <p><strong>Date:</strong> {{ review.createdAt | date: 'medium' }}</p>
+          <p><strong>Rating:</strong> {{ review.rating }}</p>
+          <p><strong>Comment:</strong> {{ review.comment }}</p>
+          <div *ngIf="isAdmin" class="review-actions">
+            <button *ngIf="review.visibility === 'visible'" (click)="hideReview(review._id)">Hide</button>
+            <button *ngIf="review.visibility === 'hidden'" (click)="unhideReview(review._id)">Unhide</button>
+          </div>
+        </li>
+      </ul>
+      <p *ngIf="!selectedListForModal?.reviews?.length">No reviews available.</p>
+      <button (click)="closeReviewModal()">Close</button>
+    </div>
+  </div>
+</div>

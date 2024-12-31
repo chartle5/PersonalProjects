@@ -1,0 +1,273 @@
+.public-lists {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #34495e;
+  }
+  
+  .post-list {
+    margin-bottom: 20px;
+  }
+  
+  .saved-lists {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .saved-lists label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #34495e;
+  }
+  
+  .saved-lists select,
+  .saved-lists button {
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .saved-lists select {
+    width: 200px;
+  }
+  
+  .saved-lists button {
+    background-color: #ff5e00;
+    color: white;
+    font-weight: bold;
+    padding: 0 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .saved-lists button:hover {
+    background-color: #2c3e50;
+  }
+  
+  .list-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Ensure two columns */
+    gap: 20px;
+  }
+  
+  .list-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .list-box h4 {
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .list-box p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .list-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .list-box li {
+    margin-bottom: 5px;
+  }
+  
+  .list-box .list-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .list-box button {
+    background-color: #ff5e00;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-box button:hover {
+    background-color: #2c3e50;
+  }
+  
+  .review-section {
+    margin-top: 15px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .review-section h5 {
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .review-section label {
+    color: #34495e;
+    font-weight: bold;
+  }
+  
+  .review-section select,
+  .review-section textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .review-section button {
+    background-color: #ff5e00;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .review-section button:hover {
+    background-color: #2c3e50;
+  }
+  
+  .reviews-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .reviews-modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .reviews-modal-content h3 {
+    margin-top: 0;
+  }
+  
+  .reviews-modal-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reviews-modal-content li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .reviews-modal-content button {
+    display: block;
+    margin: 20px auto 0;
+    background-color:  #ff5e00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .reviews-modal-content button:hover {
+    background-color: #0056b3;
+  }
+
+  .add-review-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .add-review-modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .add-review-modal-content h3 {
+    margin-top: 0;
+  }
+  
+  .add-review-modal-content label {
+    font-weight: bold;
+    color: #34495e;
+  }
+  
+  .add-review-modal-content textarea,
+  .add-review-modal-content select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .add-review-modal-content button {
+    background-color: #ff5e00;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px 5px 0 0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-review-modal-content button:hover {
+    background-color: #2c3e50;
+  }
+  
+  
+  
+  
+  

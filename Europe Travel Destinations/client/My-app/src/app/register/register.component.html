@@ -1,0 +1,28 @@
+<div class="login-container">
+    <h2>Register</h2>
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-field">
+        <label for="nickname">Nickname</label>
+        <input [(ngModel)]="nickname" id="nickname" name="nickname" required />
+      </div>
+      
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input [(ngModel)]="email" id="email" name="email" required />
+      </div>
+  
+      <div class="form-field">
+        <label for="password">Password</label>
+        <input [(ngModel)]="password" id="password" name="password" required />
+      </div>
+  
+      <div class="form-field">
+        <label for="confirmPassword">Confirm Password</label>
+        <input [(ngModel)]="confirmPassword" id="confirmPassword" name="confirmPassword" required />
+      </div>
+  
+      <button type="submit" class="login-button">Register</button>
+      <button type="button" class="close-button" (click)="onCloseModal()">Close</button>
+    </form>
+  </div>
+  

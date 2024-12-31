@@ -1,0 +1,17 @@
+<div class="home-content">
+  <h1 *ngIf="isLoggedIn; else guestWelcome">
+    Welcome {{ nickname }} to Caelan's European Travel Guide.
+  </h1>
+  <p *ngIf="isLoggedIn">This application is for users to discover their dream destinations for traveling. Feel free to create and save lists containing all your traveling desires!</p>
+  <ng-template #guestWelcome>
+    <h1>Welcome Guest to Caelan's European Travel Guide</h1>
+  </ng-template>
+  <p *ngIf="!isLoggedIn">For more features such as creating travel lists, please log in or create an account. Until then, feel free to search for destinations and view other users' public lists.</p>
+  <footer class="policy-links">
+    <ul>
+      <li><a routerLink="/privacy-policy">Privacy and Security Policy</a></li>
+      <li><a routerLink="/dmca-policy">DMCA Notice & Takedown Policy</a></li>
+      <li><a routerLink="/acceptable-use-policy">Acceptable Use Policy (AUP)</a></li>
+    </ul>
+  </footer>
+</div>

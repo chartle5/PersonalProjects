@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53165845-5691-4173-980a-cf9ea9290b4d" name="Changes" comment="commit 2" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/src" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;searchQuery&quot;: &quot;git pull&quot;,
+      &quot;state&quot;: &quot;OPEN&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;searchQuery&quot;: &quot;git pull&quot;,
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3b0b7bbe-2e5c-4a05-9967-d4ba620b6047" />
+        <option name="url" value="https://github.com/chartle5/Projects.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2YJmcptfr4DkLDJdeVF8gGCfut6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="CaelanTestingSortingMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LE6Q1.CaelanTestingSortingMethods" />
+      <module name="chartle5_Lab6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LE6Q1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CaelanTestingSortingMethods" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53165845-5691-4173-980a-cf9ea9290b4d" name="Changes" comment="" />
+      <created>1700252140352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700252140352</updated>
+      <workItem from="1700252142948" duration="3314000" />
+      <workItem from="1700255813511" duration="3218000" />
+      <workItem from="1700260557166" duration="682000" />
+      <workItem from="1700261315046" duration="3177000" />
+      <workItem from="1700344546385" duration="15269000" />
+      <workItem from="1700448102994" duration="6000" />
+      <workItem from="1700513717266" duration="63000" />
+      <workItem from="1700603968264" duration="2492000" />
+      <workItem from="1701054314205" duration="9000" />
+      <workItem from="1701305379944" duration="4540000" />
+      <workItem from="1702249144395" duration="81000" />
+      <workItem from="1702259847717" duration="1329000" />
+      <workItem from="1702262786024" duration="65000" />
+      <workItem from="1702262948911" duration="102000" />
+      <workItem from="1702263338198" duration="25000" />
+      <workItem from="1702263461347" duration="33000" />
+      <workItem from="1702263543718" duration="14000" />
+      <workItem from="1702263578183" duration="2000" />
+      <workItem from="1702263796065" duration="22000" />
+      <workItem from="1702263911272" duration="17000" />
+      <workItem from="1702263985493" duration="8000" />
+      <workItem from="1702264004021" duration="13000" />
+      <workItem from="1702264049077" duration="9000" />
+      <workItem from="1702264192050" duration="2267000" />
+      <workItem from="1702405139866" duration="1000" />
+      <workItem from="1702405321150" duration="428000" />
+      <workItem from="1702417549236" duration="597000" />
+      <workItem from="1702420372543" duration="18000" />
+      <workItem from="1702420787066" duration="207000" />
+      <workItem from="1702421170853" duration="1198000" />
+      <workItem from="1704230220610" duration="337000" />
+      <workItem from="1704230605524" duration="119000" />
+      <workItem from="1704230795930" duration="180000" />
+      <workItem from="1704232187916" duration="984000" />
+      <workItem from="1704661599329" duration="621000" />
+      <workItem from="1710268534368" duration="601000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit 1">
+      <created>1704230427760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704230427760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
+  </component>
+</project>

@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2f;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Prevents scrolling when centering the box */
+  }
+  
+  .login-container {
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    background-color: #2a2a3c;
+    color: #fff;
+    width: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+  }
+  
+  .form-field {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #b0b0b0;
+  }
+  
+  .form-field input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #3c3c4f;
+    color: #fff;
+  }
+  
+  .form-field input:focus {
+    outline: none;
+    border-color: #5a9bd4;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #5a9bd4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #4a89c7;
+  }
+  
+  .create-account-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #b0b0b0;
+  }
+  
+  .create-account-link a {
+    color: #5a9bd4;
+    text-decoration: none;
+  }
+  
+  .create-account-link a:hover {
+    text-decoration: underline;
+  }
+  

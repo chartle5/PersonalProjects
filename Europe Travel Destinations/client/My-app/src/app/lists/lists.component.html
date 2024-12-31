@@ -1,0 +1,56 @@
+<div class="lists-page">
+  <h1>{{ nickname }}'s Travel Lists</h1>
+
+  <div class="lists-container">
+    <div class="list-column" *ngIf="!selectedList">
+      <h2>Your Working List</h2>
+      <ul *ngIf="workingList.length > 0">
+        <li *ngFor="let destination of workingList">
+          {{ destination.Destination }} ({{ destination.Country }})
+          <button (click)="removeFromWorkingList(destination)">Remove</button>
+        </li>
+      </ul>
+      <p *ngIf="workingList.length === 0">Your working list is empty. Add destinations from the search page.</p>
+      <div *ngIf="workingList.length > 0" class="actions-row">
+        <button (click)="saveWorkingList()">Save List</button>
+        <div class="add-to-list">
+          <label for="addToListDropdown">Add to Existing List:</label>
+          <select id="addToListDropdown" [(ngModel)]="selectedSavedListForAdd">
+            <option *ngFor="let list of savedLists" [value]="list.title">{{ list.title }}</option>
+          </select>
+          <button (click)="addToExistingList()">Add</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="list-column" *ngIf="!selectedList">
+      <h2>Saved Lists</h2>
+      <p *ngIf="savedLists.length === 0">You have no saved lists. Start creating one!</p>
+      <div *ngIf="savedLists.length > 0">
+        <div class="list-item" *ngFor="let list of savedLists">
+          <h3>{{ list.title }}</h3>
+          <p>Destinations: {{ list.destinations.length }}</p>
+          <button (click)="viewList(list)">View</button>
+          <button (click)="deleteList(list.title)">Delete</button>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="selectedList">
+      <h2>{{ selectedList.title }}</h2>
+      <button (click)="editList()">Edit List Name</button>
+      <p>Showing {{ selectedList.destinations.length }} destinations:</p>
+      <div class="destination-columns">
+        <div class="destination-box" *ngFor="let destination of selectedList.destinations">
+          <h3>{{ destination.Destination }}</h3>
+          <p>Country: {{ destination.Country }}</p>
+          <div class="destination-buttons">
+            <button (click)="searchOnDDG(destination)">Search on DDG</button>
+            <button (click)="removeDestinationFromList(destination)">Remove</button>
+          </div>
+        </div>
+      </div>
+      <button (click)="clearSelectedList()">Back to Saved Lists</button>
+    </div>
+  </div>
+</div>

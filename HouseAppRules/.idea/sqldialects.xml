@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/example/houseapprules/AccountTableAdapter.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/example/houseapprules/ProfileTableAdapter.java" dialect="GenericSQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/6f45dbf7-1118-403d-9d0e-86c37141d6b2/console.sql" dialect="Derby" />
+  </component>
+</project>

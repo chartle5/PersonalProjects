@@ -1,0 +1,29 @@
+<div class="manage-users">
+    <h2>Manage Users</h2>
+    <h3>Users</h3>
+    <div class="users-list">
+      <div class="user-box" *ngFor="let user of users">
+        <p><strong>{{ user.nickname }}</strong></p>
+        <p>{{ user.email }}</p>
+        <p>Status: {{ user.isDeactivated ? 'Deactivated' : 'Active' }}</p>
+        <p>Role: {{ user.isAdmin ? 'Admin' : 'User' }}</p>
+        <div class="user-actions">
+          <button 
+            *ngIf="!user.isDeactivated" 
+            (click)="deactivateUser(user._id)">
+            Deactivate
+          </button>
+          <button 
+            *ngIf="user.isDeactivated" 
+            (click)="reactivateUser(user._id)">
+            Reactivate
+          </button>
+          <button 
+            *ngIf="!user.isAdmin" 
+            (click)="grantAdmin(user._id)">
+            Grant Admin
+          </button>
+        </div>
+      </div>
+    </div>
+  

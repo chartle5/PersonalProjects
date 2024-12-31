@@ -1,0 +1,7 @@
+How can I render other components using Angular
+Can you give me some ideas for colour styling for my travel guide website
+How can I access my Mongodb database from the front-end
+How can I use JWTs to authorize user credentials on login
+How can I softmatch my search terms to account for minor spelling errors
+How can I transfer my savedLists and post it on my public lists
+How can I send a verification email using nodemailer
